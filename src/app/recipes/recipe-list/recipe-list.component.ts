@@ -13,7 +13,7 @@ export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
     new Recipe('Dummy Recipe', 'This is simply a test', 'http://wire.kapitall.com/wp-content/image-import/healthy-food-stocks.jpeg'),
-    new Recipe('Dummy Recipe', 'This is simply a test', 'http://wire.kapitall.com/wp-content/image-import/healthy-food-stocks.jpeg')
+    new Recipe('Another Recipe', 'Yummmmm!', 'http://i.telegraph.co.uk/multimedia/archive/01718/steak_1718547b.jpg')
   ];
   constructor() { }
 
